@@ -1,0 +1,166 @@
+.Wrapper {
+  background: #ffffff;
+  border: 2px solid #15cdcb;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 15px;
+  display: flex;
+  max-width: 549px;
+  max-height: 249px;
+  overflow: hidden;
+}
+
+.Font {
+  font-family: "Nunito Sans";
+  font-style: normal;
+}
+
+.Id {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f54d1;
+  padding-left: 28px;
+}
+
+.Price {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  line-height: 1.5;
+  padding-left: 28px;
+}
+
+.Name {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 28px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 241px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.PositionText {
+  /*float: right;*/
+  color: #000000;
+}
+
+.Module {
+  /*display: flex;
+  flex-flow: row nowrap;*/
+  color: #000000;
+}
+
+.ModuleText {
+  padding-left: 29px;
+  padding-top: 4px;
+  padding-right: 16px;
+  line-height: 1.5;
+  /* типо сделаль паддинг больше*/
+}
+
+.Desc {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  padding-right: 75px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 28px;
+}
+
+@media (max-width: 600px) {
+  .Wrapper {
+    /* max-width: 162px; */
+    background: #ffffff;
+    border: 3px solid #15cdcb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    max-width: 175px;
+    max-height: 300px;
+    flex-wrap: wrap;
+  }
+
+  .Font {
+    font-family: "Nunito Sans";
+    font-style: normal;
+  }
+
+  .Id {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    padding-left: 5px;
+  }
+
+  .Price {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 5px;
+  }
+
+  .Name {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 5px;
+  }
+
+  img {
+    border-radius: 12px 12px 0px 0px;
+    width: 169px;
+    height: 114px;
+  }
+
+  .PositionText {
+    /*float: right;*/
+    color: #000000;
+  }
+
+  .Module {
+    /*display: flex;
+    flex-flow: row nowrap;*/
+    color: #000000;
+  }
+
+  .ModuleText {
+    padding-top: 4px;
+    padding-right: 16px;
+    /* типо сделаль паддинг больше*/
+  }
+
+  .Desc {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,11 @@
+.main {
+  position: absolute;
+  width: 1920px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(36, 201, 191, 0.99);
+  background-blend-mode: multiply;
+  border: 1px solid #000000;
+}

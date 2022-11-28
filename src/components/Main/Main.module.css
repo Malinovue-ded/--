@@ -1,0 +1,188 @@
+.Block {
+  position: absolute;
+  left: 51.68%;
+  right: 5.28%;
+  top: 6.63%;
+  bottom: 62.5%;
+
+  /* #FFFFFF */
+
+  background: red;
+  border: 3px solid #000000;
+  border-radius: 15px;
+}
+
+.TextFIO {
+  position: absolute;
+  width: 181px;
+  height: 22px;
+  left: 1374.9px;
+  top: 110.97px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* #F04A4A */
+
+  color: #f04a4a;
+}
+
+.TextEmail {
+  position: absolute;
+  width: 204px;
+  height: 22px;
+  left: 1374.53px;
+  top: 176.97px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* #000000 */
+
+  color: #000000;
+}
+.TextTelefon {
+  position: absolute;
+  width: 130px;
+  height: 22px;
+  left: 1374.9px;
+  top: 242.97px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* #000000 */
+
+  color: #000000;
+}
+
+.TextComment {
+  position: absolute;
+  width: 171px;
+  height: 24.48px;
+  left: 1031.16px;
+  top: 118.67px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  /* #000000 */
+
+  color: #000000;
+}
+
+.BlockFIO {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 435.26px;
+  height: 40px;
+  left: 1353.24px;
+  top: 101.97px;
+
+  /* #FFFFFF */
+
+  background: #ffffff;
+  /* #F04A4A */
+
+  border: 3px solid #f04a4a;
+  border-radius: 10px;
+}
+
+.BlockEmail {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 435.26px;
+  height: 40px;
+  left: 1353.24px;
+  top: 167.97px;
+
+  /* #FFFFFF */
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+.BlockTelefon {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 435.26px;
+  height: 40px;
+  left: 1353.24px;
+  top: 233.97px;
+
+  /* #FFFFFF */
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+.BlockComment {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 321.6px;
+  height: 277.18px;
+  left: 1014.95px;
+  top: 101.97px;
+
+  /* #FFFFFF */
+
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 15px;
+}
+
+.Button {
+  position: absolute;
+  width: 227.31px;
+  height: 40px;
+  left: 1457.21px;
+  top: 310.13px;
+
+  background: #000000;
+  border-radius: 10px;
+}
+
+.TextButton {
+  position: absolute;
+  width: 84px;
+  height: 22px;
+  left: 1531.77px;
+  top: calc(50% - 22px / 2 - 209.87px);
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* #FFFFFF */
+
+  color: #ffffff;
+}

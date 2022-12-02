@@ -1,166 +1,75 @@
 .Wrapper {
-  background: #ffffff;
-  border: 2px solid #15cdcb;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-  border-radius: 15px;
-  display: flex;
-  max-width: 549px;
-  max-height: 249px;
-  overflow: hidden;
 }
 
-.Font {
-  font-family: "Nunito Sans";
-  font-style: normal;
+.Ads {
+  background-image: url(/public/Ads.png);
+  width: 273px;
+  height: 643px;
+  left: 1630px;
+  top: 90px;
+  position: absolute;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
-.Id {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 500;
+.Card {
+  background-image: url(/public/sm.iphone_13\ 1.png);
+  position: absolute;
+  width: 821px;
+  height: 721px;
+  left: 1px;
+  top: 90px;
+  padding: 3px 13px 39px 1px;
+  background-repeat: no-repeat;
+  text-align: left;
+  cursor: pointer;
+}
+
+.TextFoto {
+  position: absolute;
+  top: 545px;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 0px 58px 8px 10px;
+  color: #ffffff;
+}
+.TimeFoto {
+  position: absolute;
+  top: 672px;
+
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #3f54d1;
-  padding-left: 28px;
+  padding: 8px 0 18px 10px;
+  color: #ffffff;
 }
 
-.Price {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  color: #000000;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  line-height: 1.5;
-  padding-left: 28px;
+.Textnew {
+  position: absolute;
+  top: 90px;
+  height: 721px;
+  width: 721px;
+  left: 840px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: initial;
+  grid-auto-rows: minmax(240px 340px);
+  grid-row-gap: 1px;
+  grid-column-gap: 13px;
 }
 
-.Name {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  padding-left: 28px;
-  line-height: 1.5;
-}
-
-img {
-  max-width: 241px;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.PositionText {
-  /*float: right;*/
-  color: #000000;
-}
-
-.Module {
-  /*display: flex;
-  flex-flow: row nowrap;*/
-  color: #000000;
-}
-
-.ModuleText {
-  padding-left: 29px;
-  padding-top: 4px;
-  padding-right: 16px;
-  line-height: 1.5;
-  /* типо сделаль паддинг больше*/
-}
-
-.Desc {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  padding-right: 75px;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  padding-left: 28px;
-}
-
-@media (max-width: 600px) {
-  .Wrapper {
-    /* max-width: 162px; */
-    background: #ffffff;
-    border: 3px solid #15cdcb;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    max-width: 175px;
-    max-height: 300px;
-    flex-wrap: wrap;
-  }
-
-  .Font {
-    font-family: "Nunito Sans";
-    font-style: normal;
-  }
-
-  .Id {
-    font-family: "Nunito Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    color: #8c8c8c;
-    padding-left: 5px;
-  }
-
-  .Price {
-    font-family: "Nunito Sans";
-    font-style: normal;
-    color: #000000;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    padding-left: 5px;
-  }
-
-  .Name {
-    font-family: "Nunito Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    padding-left: 5px;
-  }
-
-  img {
-    border-radius: 12px 12px 0px 0px;
-    width: 169px;
-    height: 114px;
-  }
-
-  .PositionText {
-    /*float: right;*/
-    color: #000000;
-  }
-
-  .Module {
-    /*display: flex;
-    flex-flow: row nowrap;*/
-    color: #000000;
-  }
-
-  .ModuleText {
-    padding-top: 4px;
-    padding-right: 16px;
-    /* типо сделаль паддинг больше*/
-  }
-
-  .Desc {
-    font-family: "Nunito Sans";
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+.bottonNews {
+  position: absolute;
+  top: 900px;
+  height: auto;
+  width: 1780px;
+  left: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: initial;
+  grid-auto-rows: minmax(240px 340px);
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
 }
